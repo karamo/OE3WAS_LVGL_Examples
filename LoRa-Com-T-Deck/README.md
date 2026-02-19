@@ -1,5 +1,6 @@
 ## Basis-Beispiel für 320x240 Display
-**Info:** Die farbliche Gestaltung ist sehr individuell, kann aber in EEZ-Studio extrem einfach geändert/angepasst werden.
+⚠️ Die farbliche Gestaltung ist sehr individuell, kann aber in EEZ-Studio extrem einfach geändert/angepasst werden.  
+➡️ Die Implementierung erfolgt auf einem LilyGo T-Beam.
 
 ### User Widget: <ins>**TopBar**</ins>
 wird auf jeder Page angezeigt, muss nur 1x designed werden.  
@@ -18,4 +19,7 @@ wird auf jeder Page angezeigt, muss nur 1x designed werden.
 ---
 * ...
 
+
+⚠️➡️✔️✅🔹
+---
 
