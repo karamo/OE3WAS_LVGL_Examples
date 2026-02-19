@@ -1,12 +1,26 @@
 # OE3WAS_LVGL_Examples
-* [LVGL](https://lvgl.io/)-Beispiele mit [EEZ-Studio](https://www.envox.eu/) erzeugt.
-* Und der Versuch einer Dokumentation.
+* [LVGL](https://lvgl.io/)-Beispiele mit [EEZ-Studio](https://www.envox.eu/) erzeugt,
+* und der Versuch einer Dokumentation.
+
+### Intention
+* Mit [LVGL](https://lvgl.io/) können Bedienoberflächen (GUI) für unterschiedliche Touch-Displays erzeugt werden.
+* Mit [EEZ-Studio](https://www.envox.eu/) kann diese Erstellung einfach mittels einer grafischen Oberfläche designed werden, welche die komplexen Programmsequenzen erzeugt.
+* Das Design der GUI für eine Applikation kann damit getrennt von der Entwicklung der Applikation erfolgen. Es besteht eine eindeutige und einfache Schnittstelle.
+
 
 ---
-### LilyGo T-Deck
-* Basis Menüstruktur
-* LoRa-Kommunikator
-* LoRa-PingPong
+### LoRa-Kommunikator auf LilyGo T-Deck
+* verwendet wird ein [**LilyGo T-Deck**](https://lilygo.cc/en-us/products/t-deck) (ist zwar schon veraltet, war aber vorhanden und ist weit verbreitet)
+* Nachfolgemodelle sollten gleichartig funktionieren, da das LVGL/EEZ-Studio Design lediglich die Bildschirmgröße (in Pixel) als Grundlage nimmt.
+* Die Anpassung an andere Displays ist sehr leicht möglich.
+* Mehrere Screens, die untereinander verknüpft werden können, bilden die Basis Menüstruktur.
+
+- [ ] Screen Main (System, Info, ...)
+- [ ] Screen Menü
+- [ ] Screen Setup
+- [ ] Screen LoRa-Kommunikator
+- [ ] Screen LoRa-PingPong
+  
 
 
 ---
