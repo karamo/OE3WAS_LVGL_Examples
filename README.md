@@ -1,5 +1,5 @@
 # OE3WAS_LVGL_Examples
-* LVGL-Beispiele mit EEZ-Studio erzeugt.
+* [LVGL](https://lvgl.io/)-Beispiele mit [EEZ-Studio](https://www.envox.eu/) erzeugt.
 * Und der Versuch einer Dokumentation.
 
 ---
