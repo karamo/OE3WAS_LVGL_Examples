@@ -16,15 +16,5 @@
 * Ein Beispiel, bestehend aus mehreren Screens, die untereinander verknüpft werden können und eine einfache Basisstruktur darstellt.
 * ➡️ https://github.com/karamo/OE3WAS_LVGL_Examples/tree/main/LoRa-Com-T-Deck
 
-- [x] User Widget TopBar: grundlegende Infos über die Applikation und Basis-Buttons zur Steuerung. Erscheint grundsätzlich auf jeder Page.
-- [x] Page Main: System, Info, ...
-- [x] Page Symbols: zeigt die möglichen Icons in LVGL 9.4
-- [ ] Page Menü: Auswahl der verschiedenen Screens
-- [ ] Page Setup: Einstellung von verschiedenen Systemparamteren
-- [ ] Page LoRa-Kommunikator: 
-- [ ] Page LoRa-PingPong
-  
-
-
 ---
 ***:copyright: 19.2.2026 by OE3WAS - Wolfgang***
