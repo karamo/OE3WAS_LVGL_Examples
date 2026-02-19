@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[T_Deck.eez-project]:/userPages/5",
+    "selectedUserPageObject": "[T_Deck.eez-project]:/userPages/3",
     "selectedUserWidgetObject": "[T_Deck.eez-project]:/userWidgets/0",
     "selectedFontObject": "[T_Deck.eez-project]:/fonts/2",
     "subnavigationSelectedItems": {
@@ -258,10 +258,10 @@
                 {
                   "type": "tab",
                   "id": "#88e20274-da57-4c61-b19a-bc0e6f5784a6",
-                  "name": "Chat",
+                  "name": "Setup",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[T_Deck.eez-project]:/userPages/5",
+                    "objectPath": "[T_Deck.eez-project]:/userPages/3",
                     "permanent": false
                   },
                   "icon": "svg:page"
@@ -1153,9 +1153,7 @@
     "[T_Deck.eez-project]:/userPages/4[flow-state]": {
       "selection": {
         "0": {
-          "1": {
-            "$selected": true
-          }
+          "1": {}
         }
       },
       "transform": {
@@ -1176,9 +1174,7 @@
       "selection": {
         "0": {
           "1": {
-            "1": {
-              "$selected": true
-            }
+            "1": {}
           }
         }
       },
