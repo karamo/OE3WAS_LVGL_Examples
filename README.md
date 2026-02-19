@@ -13,7 +13,8 @@
 * verwendet wird ein [**LilyGo T-Deck**](https://lilygo.cc/en-us/products/t-deck) (ist zwar schon veraltet, war aber vorhanden und ist weit verbreitet)
 * Nachfolgemodelle sollten gleichartig funktionieren, da das LVGL/EEZ-Studio Design lediglich die Bildschirmgröße (in Pixel) als Grundlage nimmt.
 * Die Anpassung an andere Displays ist sehr leicht möglich.
-* Mehrere Screens, die untereinander verknüpft werden können, bilden die Basis Menüstruktur.
+* Ein Beispiel, bestehend aus mehreren Screens, die untereinander verknüpft werden können und eine einfache Basisstruktur darstellt.
+* ➡️ ...
 
 - [ ] Screen Main: System, Info, ...
 - [ ] Screen Menü: Auswahl der verschiedenen Screens
