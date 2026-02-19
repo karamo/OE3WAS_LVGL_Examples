@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[T_Deck.eez-project]:/userPages/2",
+    "selectedUserPageObject": "[T_Deck.eez-project]:/userPages/5",
     "selectedUserWidgetObject": "[T_Deck.eez-project]:/userWidgets/0",
     "selectedFontObject": "[T_Deck.eez-project]:/fonts/2",
     "subnavigationSelectedItems": {
@@ -127,7 +127,6 @@
                   "type": "tabset",
                   "id": "#5c3f5a85-34ac-43b0-9f96-e5aa9d5aed75",
                   "weight": 1,
-                  "selected": 1,
                   "enableClose": false,
                   "children": [
                     {
@@ -194,7 +193,7 @@
               "type": "tabset",
               "id": "EDITORS",
               "weight": 44.02527623420566,
-              "selected": 2,
+              "selected": 3,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
@@ -259,10 +258,10 @@
                 {
                   "type": "tab",
                   "id": "#88e20274-da57-4c61-b19a-bc0e6f5784a6",
-                  "name": "Symbols",
+                  "name": "Chat",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[T_Deck.eez-project]:/userPages/2",
+                    "objectPath": "[T_Deck.eez-project]:/userPages/5",
                     "permanent": false
                   },
                   "icon": "svg:page"
@@ -1116,6 +1115,70 @@
           "4": {},
           "5": {
             "0": {}
+          }
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -160,
+          "y": -120
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[T_Deck.eez-project]:/userPages/3[flow-state]": {
+      "selection": {
+        "0": {}
+      },
+      "transform": {
+        "translate": {
+          "x": -160,
+          "y": -120
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[T_Deck.eez-project]:/userPages/4[flow-state]": {
+      "selection": {
+        "0": {
+          "1": {
+            "$selected": true
+          }
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -160,
+          "y": -120
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[T_Deck.eez-project]:/userPages/5[flow-state]": {
+      "selection": {
+        "0": {
+          "1": {
+            "1": {
+              "$selected": true
+            }
           }
         }
       },
