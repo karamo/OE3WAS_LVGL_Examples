@@ -14,13 +14,15 @@
 * Nachfolgemodelle sollten gleichartig funktionieren, da das LVGL/EEZ-Studio Design lediglich die Bildschirmgröße (in Pixel) als Grundlage nimmt.
 * Die Anpassung an andere Displays ist sehr leicht möglich.
 * Ein Beispiel, bestehend aus mehreren Screens, die untereinander verknüpft werden können und eine einfache Basisstruktur darstellt.
-* ➡️ ...
+* ➡️ https://github.com/karamo/OE3WAS_LVGL_Examples/tree/main/LoRa-Com-T-Deck
 
-- [ ] Screen Main: System, Info, ...
-- [ ] Screen Menü: Auswahl der verschiedenen Screens
-- [ ] Screen Setup: Einstellung von verschiedenen Systemparamteren
-- [ ] Screen LoRa-Kommunikator: 
-- [ ] Screen LoRa-PingPong
+- [x] User Widget TopBar: grundlegende Infos über die Applikation und Basis-Buttons zur Steuerung. Erscheint grundsätzlich auf jeder Page.
+- [x] Page Main: System, Info, ...
+- [x] Page Symbols: zeigt die möglichen Icons in LVGL 9.4
+- [ ] Page Menü: Auswahl der verschiedenen Screens
+- [ ] Page Setup: Einstellung von verschiedenen Systemparamteren
+- [ ] Page LoRa-Kommunikator: 
+- [ ] Page LoRa-PingPong
   
 
 
