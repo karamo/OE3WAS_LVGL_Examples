@@ -28,24 +28,29 @@ Enthält grundlegende Infos über die Applikation und Basis-Buttons zur Steuerun
 ---
 ### Page: <ins>**Menü**</ins>
 Auswahl der verschiedenen Pages
+* [RXmessages] [TXmessage] zusammengefasst in [Chat]
+* [PingPong] Funktionalität
+* [Setup]
+* [Symbols]
 
   ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_Menue.PNG)
 
 ---
 ### Page: <ins>**Setup**</ins>
-Auswahl der verschiedenen Pages
+* Einstellung von Systemparametern
+* ⚠️ noch nicht implementiert
 
   ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_Setup.PNG)
 
 ---
 ### Page: <ins>**Chat**</ins>
-Auswahl der verschiedenen Pages
+⚠️ noch nicht implementiert
 
   ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_Chat.PNG)
 
 ---
 ### Page: <ins>**PingPong**</ins>
-Auswahl der verschiedenen Pages
+⚠️ noch nicht implementiert
 
   ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_PingPong.PNG)
 
@@ -63,6 +68,7 @@ zeigt die in LVGL 9.4 vorhandenen und darstellbaren Icons
 
 ---
 ***:copyright: 19.2.2026 by OE3WAS - Wolfgang***
+
 
 
 
