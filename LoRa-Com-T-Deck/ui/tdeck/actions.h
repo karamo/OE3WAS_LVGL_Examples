@@ -13,6 +13,7 @@ extern void action_bt_messages(lv_event_t * e);
 extern void action_bt_write(lv_event_t * e);
 extern void action_bt_ping_pong(lv_event_t * e);
 extern void action_bt_home(lv_event_t * e);
+extern void action_bt_symbols(lv_event_t * e);
 
 
 #ifdef __cplusplus

@@ -41,6 +41,7 @@ typedef struct _objects_t {
     lv_obj_t *bt_write;
     lv_obj_t *bt_ping_pong;
     lv_obj_t *bt_setup;
+    lv_obj_t *bt_symbols;
     lv_obj_t *bt_default;
     lv_obj_t *bt_default_1;
     lv_obj_t *bt_default_2;
