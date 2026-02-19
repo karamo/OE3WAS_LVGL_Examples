@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "selectedUserPageObject": "[T_Deck.eez-project]:/userPages/0",
+    "selectedUserPageObject": "[T_Deck.eez-project]:/userPages/2",
     "selectedUserWidgetObject": "[T_Deck.eez-project]:/userWidgets/0",
     "selectedFontObject": "[T_Deck.eez-project]:/fonts/2",
     "subnavigationSelectedItems": {
@@ -127,7 +127,6 @@
                   "type": "tabset",
                   "id": "#5c3f5a85-34ac-43b0-9f96-e5aa9d5aed75",
                   "weight": 1,
-                  "selected": 1,
                   "enableClose": false,
                   "children": [
                     {
@@ -194,6 +193,7 @@
               "type": "tabset",
               "id": "EDITORS",
               "weight": 44.02527623420566,
+              "selected": 2,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
@@ -258,10 +258,10 @@
                 {
                   "type": "tab",
                   "id": "#88e20274-da57-4c61-b19a-bc0e6f5784a6",
-                  "name": "Main",
+                  "name": "Symbols",
                   "component": "editor",
                   "config": {
-                    "objectPath": "[T_Deck.eez-project]:/userPages/0",
+                    "objectPath": "[T_Deck.eez-project]:/userPages/2",
                     "permanent": false
                   },
                   "icon": "svg:page"
@@ -1036,9 +1036,7 @@
     "[T_Deck.eez-project]:/userPages/0[flow-state]": {
       "selection": {
         "0": {
-          "0": {
-            "$selected": true
-          },
+          "0": {},
           "1": {}
         }
       },
