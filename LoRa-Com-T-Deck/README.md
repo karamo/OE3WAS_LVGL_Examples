@@ -32,6 +32,24 @@ Auswahl der verschiedenen Pages
   ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_Menue.PNG)
 
 ---
+### Page: <ins>**Setup**</ins>
+Auswahl der verschiedenen Pages
+
+  ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_Setup.PNG)
+
+---
+### Page: <ins>**Chat**</ins>
+Auswahl der verschiedenen Pages
+
+  ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_Chat.PNG)
+
+---
+### Page: <ins>**PingPong**</ins>
+Auswahl der verschiedenen Pages
+
+  ![TopBar](https://github.com/karamo/OE3WAS_LVGL_Examples/blob/main/LoRa-Com-T-Deck/images/Page_PingPong.PNG)
+
+---
 * ...
 
 ---
@@ -45,6 +63,7 @@ zeigt die in LVGL 9.4 vorhandenen und darstellbaren Icons
 
 ---
 ***:copyright: 19.2.2026 by OE3WAS - Wolfgang***
+
 
 
 
