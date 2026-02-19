@@ -15,10 +15,10 @@
 * Die Anpassung an andere Displays ist sehr leicht möglich.
 * Mehrere Screens, die untereinander verknüpft werden können, bilden die Basis Menüstruktur.
 
-- [ ] Screen Main (System, Info, ...)
-- [ ] Screen Menü
-- [ ] Screen Setup
-- [ ] Screen LoRa-Kommunikator
+- [ ] Screen Main: System, Info, ...
+- [ ] Screen Menü: Auswahl der verschiedenen Screens
+- [ ] Screen Setup: Einstellung von verschiedenen Systemparamteren
+- [ ] Screen LoRa-Kommunikator: 
 - [ ] Screen LoRa-PingPong
   
 
