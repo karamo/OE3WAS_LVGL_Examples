@@ -1,6 +1,6 @@
 ## Basis-Beispiel für 320x240 Display
 ⚠️ Die farbliche Gestaltung ist sehr individuell, kann aber in EEZ-Studio extrem einfach geändert/angepasst werden.  
-➡️ Die Implementierung erfolgt auf einem LilyGo T-Beam.
+➡️ Die Implementierung erfolgt auf einem **LilyGo T-Beam**.
 - [x] **User Widget TopBar**
 - [x] **Page Main**
 - [x] **Page Symbols**
@@ -45,5 +45,6 @@ zeigt die in LVGL 9.4 vorhandenen und darstellbaren Icons
 
 ---
 ***:copyright: 19.2.2026 by OE3WAS - Wolfgang***
+
 
 
