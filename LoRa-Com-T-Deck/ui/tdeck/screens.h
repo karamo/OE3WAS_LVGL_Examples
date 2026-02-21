@@ -13,7 +13,7 @@ typedef struct _objects_t {
     lv_obj_t *symbols;
     lv_obj_t *setup;
     lv_obj_t *ping_pong;
-    lv_obj_t *chat;
+    lv_obj_t *tx_message;
     lv_obj_t *obj0;
     lv_obj_t *obj0__action_led;
     lv_obj_t *obj0__bt_menue;
@@ -116,6 +116,7 @@ typedef struct _objects_t {
     lv_obj_t *terminal;
     lv_obj_t *message_input;
     lv_obj_t *bt_send;
+    lv_obj_t *bt_clear;
     lv_obj_t *info_2;
 } objects_t;
 
@@ -127,7 +128,7 @@ enum ScreensEnum {
     SCREEN_ID_SYMBOLS = 3,
     SCREEN_ID_SETUP = 4,
     SCREEN_ID_PING_PONG = 5,
-    SCREEN_ID_CHAT = 6,
+    SCREEN_ID_TX_MESSAGE = 6,
 };
 
 void create_screen_main();
@@ -145,8 +146,8 @@ void tick_screen_setup();
 void create_screen_ping_pong();
 void tick_screen_ping_pong();
 
-void create_screen_chat();
-void tick_screen_chat();
+void create_screen_tx_message();
+void tick_screen_tx_message();
 
 void create_user_widget_top_bar(lv_obj_t *parent_obj, int startWidgetIndex);
 void tick_user_widget_top_bar(int startWidgetIndex);

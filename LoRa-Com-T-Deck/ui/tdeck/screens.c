@@ -728,9 +728,9 @@ void tick_screen_ping_pong() {
     tick_user_widget_top_bar(74);
 }
 
-void create_screen_chat() {
+void create_screen_tx_message() {
     lv_obj_t *obj = lv_obj_create(0);
-    objects.chat = obj;
+    objects.tx_message = obj;
     lv_obj_set_pos(obj, 0, 0);
     lv_obj_set_size(obj, 320, 240);
     lv_obj_add_event_cb(obj, action_bt_setup, LV_EVENT_CLICKED, (void *)0);
@@ -781,8 +781,8 @@ void create_screen_chat() {
                     // MessageInput
                     lv_obj_t *obj = lv_textarea_create(parent_obj);
                     objects.message_input = obj;
-                    lv_obj_set_pos(obj, 12, 150);
-                    lv_obj_set_size(obj, 217, 35);
+                    lv_obj_set_pos(obj, 1, 150);
+                    lv_obj_set_size(obj, 190, 35);
                     lv_textarea_set_max_length(obj, 128);
                     lv_textarea_set_one_line(obj, false);
                     lv_textarea_set_password_mode(obj, false);
@@ -792,8 +792,9 @@ void create_screen_chat() {
                     // btSend
                     lv_obj_t *obj = lv_button_create(parent_obj);
                     objects.bt_send = obj;
-                    lv_obj_set_pos(obj, 245, 150);
-                    lv_obj_set_size(obj, 70, 38);
+                    lv_obj_set_pos(obj, 220, 150);
+                    lv_obj_set_size(obj, 40, 38);
+                    lv_obj_add_event_cb(obj, action_bt_sen_dmsg, LV_EVENT_CLICKED, (void *)0);
                     {
                         lv_obj_t *parent_obj = obj;
                         {
@@ -801,7 +802,27 @@ void create_screen_chat() {
                             lv_obj_set_pos(obj, 0, 0);
                             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
                             lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
-                            lv_label_set_text(obj, "Button");
+                            lv_obj_set_style_text_font(obj, &lv_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
+                            lv_label_set_text(obj, "\uF124");
+                        }
+                    }
+                }
+                {
+                    // btClear
+                    lv_obj_t *obj = lv_button_create(parent_obj);
+                    objects.bt_clear = obj;
+                    lv_obj_set_pos(obj, 275, 150);
+                    lv_obj_set_size(obj, 40, 38);
+                    lv_obj_add_event_cb(obj, action_bt_sen_dmsg, LV_EVENT_CLICKED, (void *)0);
+                    lv_obj_set_style_text_font(obj, &lv_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
+                    {
+                        lv_obj_t *parent_obj = obj;
+                        {
+                            lv_obj_t *obj = lv_label_create(parent_obj);
+                            lv_obj_set_pos(obj, 0, 0);
+                            lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
+                            lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
+                            lv_label_set_text(obj, "\uF2ED");
                         }
                     }
                 }
@@ -815,12 +836,24 @@ void create_screen_chat() {
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
             lv_label_set_text(obj, "noch nicht implementiert !");
         }
+        {
+            lv_obj_t *obj = lv_label_create(parent_obj);
+            lv_obj_set_pos(obj, 18, 210);
+            lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
+            lv_label_set_text(obj, "To Call or Group");
+        }
+        {
+            lv_obj_t *obj = lv_label_create(parent_obj);
+            lv_obj_set_pos(obj, 18, 64);
+            lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
+            lv_label_set_text(obj, "Type Message");
+        }
     }
     
-    tick_screen_chat();
+    tick_screen_tx_message();
 }
 
-void tick_screen_chat() {
+void tick_screen_tx_message() {
     tick_user_widget_top_bar(93);
 }
 
@@ -1001,7 +1034,7 @@ tick_screen_func_t tick_screen_funcs[] = {
     tick_screen_symbols,
     tick_screen_setup,
     tick_screen_ping_pong,
-    tick_screen_chat,
+    tick_screen_tx_message,
 };
 void tick_screen(int screen_index) {
     tick_screen_funcs[screen_index]();
@@ -1020,5 +1053,5 @@ void create_screens() {
     create_screen_symbols();
     create_screen_setup();
     create_screen_ping_pong();
-    create_screen_chat();
+    create_screen_tx_message();
 }
